@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sudoers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/chosen.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-2">
+					<div class="title">
+						<a href="index.html"><img src="img/title.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-9 col-lg-7">
+					<nav class="navbar navbar-expand-lg navbar-light nav">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+							<i class="fa fa-bars"></i>
+						</button>
+						<div class="collapse navbar-collapse" id="nav">
+							<ul class="navbar-nav menu">
+								<li><a href="index.html">Jobs</a></li>
+								<li><a href="freelancer.html">Freelancers</a></li>
+								<li><a href="#">Contest</a></li>
+								<li><a href="#">How it works?</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="col-md-3 col-lg-3">
+					<div class="autorisation">
+						<!-- Button trigger modal -->
+						<button type="button" class="btn_login_reg" data-toggle="modal" data-target="#login">
+							Login
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="login" tabindex="-1" role="dialog">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">
+											<img src="img/title_md.png" alt="">
+										</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<i class="fa fa-times"></i>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div class="login_facebook">
+											<i class="fa fa-facebook"></i>
+											<button type="button" class="btn_log_with">Log in with Facebook</button>
+										</div>
+										<div class="login_google">
+											<i class="fa fa-google-plus"></i>
+											<button type="button" class="btn_log_with">Log in with Google Plus</button>
+										</div>
+										<div class="or">or</div>
+										<div class="email_password">
+											<div class="email">
+												<input type="text" class="form-control" placeholder="Email address or Username">
+												<i class="fa fa-user"></i>
+											</div>
+											<div class="password">
+												<input type="password" class="form-control" placeholder="Password">
+												<i class="fa fa-lock"></i>
+											</div>
+										</div>
+										<div class="remember_forgot">
+											<div class="remember_me">
+												<label class="control control-checkbox">
+													Remember Me
+													<input type="checkbox" checked="checked" />
+													<div class="control_indicator"></div>
+												</label>
+											</div>
+											<div class="forgot_password">
+												<a href="#">Forgot password?</a>
+											</div>
+										</div>
+										<div class="login">
+											<button type="button" class="btn_login">Log in</button>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<div class="account">
+											Don’t have an account?
+											<a href="#">Sign up</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn_login_reg" data-toggle="modal" data-target="#register">
+							Register
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="register" tabindex="-1" role="dialog">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">
+											<img src="img/title.png" alt="">
+										</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<i class="fa fa-times"></i>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div class="login_facebook">
+											<i class="fa fa-facebook"></i>
+											<button type="button" class="btn_log_with">Log in with Facebook</button>
+										</div>
+										<div class="login_google">
+											<i class="fa fa-google-plus"></i>
+											<button type="button" class="btn_log_with">Log in with Google Plus</button>
+										</div>
+										<div class="or">or</div>
+										<div class="email_password">
+											<div class="email">
+												<input type="text" class="form-control" placeholder="Email address">
+												<i class="fa fa-user"></i>
+											</div>
+											<div class="password">
+												<input type="password" class="form-control" placeholder="Password">
+												<i class="fa fa-lock"></i>
+											</div>
+										</div>
+										<div class="employer_freelancer">
+											<div class="employer">
+												<label class="control control-radio">
+													I’m a Employer
+													<input name="radio" checked="checked" type="radio">
+													<div class="control_indicator"></div>
+												</label>
+											</div>
+											<div class="employer">
+												<label class="control control-radio">
+													I’m a Freelancer
+													<input name="radio" checked="checked" type="radio">
+													<div class="control_indicator"></div>
+												</label>
+											</div>
+										</div>
+										<div class="login">
+											<button type="button" class="btn_login">Sign up</button>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<div class="account">
+											Don’t have an account?
+											<a href="#">Sign up</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="find_dream_job">
+			<div class="container">
+				<div class="caption">
+					<h4 class="h4">Tell us what you need done</h4>
+					<p class="desc">
+						Contact skilled freelancers within minutes. View profiles, ratings, portfolios and chat with them.
+						Pay the freelancer only when you are 100% satisfied with their work.
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="section_post_job">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="caption_job">
+						<label for="location" class="label">Job title</label>
+					</div>
+					<div class="input">
+						<input type="text" class="form-control" placeholder="e.g. Build me a Landing page design" id="location">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="caption_job"><label class="label">Category</label></div>
+					<select class="chosen-select" tabindex="7">
+						<option>Choose a category</option>
+						<option>Web development</option>
+						<option>IT specialist</option>
+						<option>Graphic design</option>
+						<option>Digital marketing</option>
+						<option>Writing / Translating</option>
+						<option>Accounting</option>
+						<option>General</option>
+						<option>Graphic design</option>
+						<option>Digital marketing</option>
+						<option>Writing / Translating</option>
+						<option>Accounting</option>
+						<option>General</option>
+					</select>
+				</div>
+				<div class="col-md-6">
+					<div class="caption_post">
+						<label for="location" class="label">Budget</label>
+					</div>
+					<div class="input">
+						<input type="text" class="form-control" placeholder="Your job budjet" id="location">
+						<p class="usd">USD</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="caption_post">
+						<label class="label">Job Type</label>
+					</div>
+					<select data-placeholder="Choose a type" class="chosen-select" tabindex="7">
+						<!-- <option>Choose a category</option> -->
+						<option value=""></option>
+						<option></option>
+						<option>Project</option>
+						<option>Full Time</option>
+						<option>Part Time</option>
+						<option>Intership</option>
+						<option>Temporary</option>
+						<option>Contract</option>
+					</select>
+				</div>
+				<div class="col-md-12">
+					<div class="caption_post">
+						<label class="label">Job Description</label>
+						<p>
+							Start with a bit about yourself or your business, and include an overview of what you need done.
+						</p>
+					</div>
+					<textarea placeholder="About this job..." class="textarea"></textarea>
+				</div>
+				<div class="col-md-12">
+					<div class="upload_files">
+						<div class="input_group">
+							<label for="myfile" class="choose">
+								<i class="fa fa-plus"></i>
+								Upload your file(s)
+							</label>
+							<input type="file" class="input_file" id="myfile" name="myfile" multiple="multiple"/>
+						</div>
+						<div class="desc">
+							Drag & drop any images or documents that might be helpful in explaining your project brief here.
+						</div>
+					</div>
+					<div class="files">
+						<div class="img rar">
+							<div class="box"><img src="img/pdf.png" alt=""></div>
+							<div class="box">PDF</div>
+						</div>
+						<div class="pdf">brief.pdf</div>
+						<div class="kb">477.54KB</div>
+						<div class="delete">Delete</div>
+					</div>
+					<div class="files">
+						<div class="img">
+							<img src="img/simple.png" alt="">
+						</div>
+						<div class="pdf">logo.jpg</div>
+						<div class="kb">234.54KB</div>
+						<div class="delete">Delete</div>
+					</div>
+					<div class="files">
+						<div class="img rar">
+							<div class="box"><img src="img/pdf.png" alt=""></div>
+							<div class="box">RAR</div>
+						</div>
+						<div class="pdf">images.rar</div>
+						<div class="kb">14.88MB</div>
+						<div class="delete">Delete</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="caption">
+						<h4 class="h4">What skills are required?</h4>
+						<div class="desc">
+							Enter up to 5 skills that best describe your project. Freelancers will use these skills to find projects they are most interested and experienced in.
+						</div>
+					</div>
+					<select data-placeholder="Your Favorite Types of Bear" multiple class="chosen-select" tabindex="18" id="multiple-label-example">
+						<option value=""></option>
+						<option>Web development</option>
+						<option>IT specialist</option>
+						<option>Graphic design</option>
+						<option>Digital marketing</option>
+						<option>Writing / Translating</option>
+						<option>Accounting</option>
+						<option>General</option>
+						<option>Graphic design</option>
+						<option>Digital marketing</option>
+						<option>Writing / Translating</option>
+						<option>Accounting</option>
+						<option>General</option>
+					</select>
+				</div>
+				<div class="col-md-12">
+					<div class="caption">
+						<h4 class="h4">How would you like to get it done?</h4>
+					</div>
+					<div class="post_start">
+						<input type="radio" name="radio-select" class="start" checked id="select1" />
+						<label for="select1">
+							<p>Post a project</p>
+							<span>Receive free quotes, best for when you have a specific idea, the project is not visual in nature or the project is complex.</span>
+						</label>
+						<input type="radio" name="radio-select" class="start" id="select2" />
+						<label for="select2">
+							<p>Start a contest</p>
+							<span>Crowdsource ideas. Post a prize and get competing entries which you can iterate on with feedback. Great for visual designs.</span>
+						</label>
+					</div>
+					<div class="featured">
+						<div class="check">
+							<input type="checkbox" id="checkbox-id1" />
+							<label for="checkbox-id1"><p>Featured</p></label>
+						</div>
+						<div class="desc">
+							Featured projects attract higher-quality bids and are displayed prominently in the 'Featured Jobs and Contests' page.
+						</div>
+						<div class="usd">19$ USD</div>
+					</div>
+					<div class="featured">
+						<div class="check">
+							<input type="checkbox" id="checkbox-id2" />
+							<label for="checkbox-id2"><p>Private</p></label>
+						</div>
+						<div class="desc">
+							Hide project details from search engines and users that are not logged in, for projects that you need to keep confidential.
+						</div>
+						<div class="usd">19$ USD</div>
+					</div>
+					<div class="featured">
+						<div class="check">
+							<input type="checkbox" id="checkbox-id3" />
+							<label for="checkbox-id3"><p>Urgent</p></label>
+						</div>
+						<div class="desc">
+							Hide project details from search engines and users
+						</div>
+						<div class="usd">19$ USD</div>
+					</div>
+					<hr>
+					<div class="post_preview">
+						<div class="btn_p">
+							<button type="button" class="btn_post">Post my Job</button>
+						</div>
+						<div class="btn_p">
+							<button type="button" class="btn_preview">Preview</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="title">
+						<a href="index.html"><img src="img/title.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="icons">
+						<div class="social_icon">
+							<a href="#" class="icon facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+						</div>
+						<div class="social_icon">
+							<a href="#" class="icon twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+						</div>
+						<div class="social_icon">
+							<a href="#" class="icon pinterest" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+						</div>
+						<div class="social_icon">
+							<a href="#" class="icon google" data-toggle="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<div class="social_icon">
+							<a href="#" class="icon instagram" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="dropdown">
+						<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+							English
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">English</a>
+							<a class="dropdown-item" href="#">Russian</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="caption">
+						<h5 class="h5">Freelancer</h5>
+					</div>
+					<ul class="list">
+						<li><a href="#">Categories</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Contests</a></li>
+						<li><a href="#">Freelancers</a></li>
+						<li><a href="#">Enterprise</a></li>
+						<li><a href="#">API for Developers</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<div class="caption">
+						<h5 class="h5">About</h5>
+					</div>
+					<ul class="list">
+						<li><a href="#">How it Works</a></li>
+						<li><a href="#">Security</a></li>
+						<li><a href="#">Investor</a></li>
+						<li><a href="#">Sitemap</a></li>
+						<li><a href="#">Quotes</a></li>
+						<li><a href="#">News</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<div class="caption">
+						<h5 class="h5">Terms</h5>
+					</div>
+					<ul class="list">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+						<li><a href="#">Copyright Policy</a></li>
+						<li><a href="#">Code of Conduct</a></li>
+						<li><a href="#">Fees and Charges</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<div class="caption">
+						<h5 class="h5">Freelancer</h5>
+					</div>
+					<ul class="list">
+						<li>Weekly breaking news, analysis and cutting edge advices on job searching.</li>
+						<li class="send">
+							<div class="input">
+								<input type="text" class="form-control" placeholder="Enter your email address">
+							</div>
+							<div class="right">
+								<a href="#"><i class="fa fa-arrow-right"></i></a>
+							</div>
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="copyright">
+			© 2018 Hireo. All Rights Reserved.
+		</div>
+	</footer>
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/jquery/chosen.jquery.min.js"></script>
+	<script src="libs/bootstrap4/js/popper.min.js"></script>
+	<script src="libs/bootstrap4/js/bootstrap.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="libs/js/script.js"></script>
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>

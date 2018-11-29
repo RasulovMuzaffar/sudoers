@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Designer for German WordPress business website",
+    "part_time": "Part Time",
+    "company": "Shams Web Studio",
+    "specialty": "Web developer",
+    "heart": false,
+    "city": "Tashkent, Uzb.",
+    "location": "Gulobod, Tashkent, Uzbekistan",
+    "direction": "Design",
+    "calendar_date": "20 July",
+    "item_text": "We are a small marketplace marketing agency from Germany. We are looking for a designer for our WordPress website.",
+    "tags": [
+      "Photoshop",
+      "Web design",
+      "Grahphic design",
+      "Sketch"
+    ],
+    "cost": "250$ - 500$",
+    "cost_uz": "5,000,000 - 8,000,000 so'm"
+  },
+  {
+    "id": 2,
+    "title": "WordPress – Custom work on existing site ",
+    "part_time": "Project",
+    "company": "Shams Web Studio",
+    "specialty": "Web developer",
+    "heart": false,
+    "city": "N/A",
+    "location": "Gulobod, Tashkent, Uzbekistan",
+    "direction": "Web Development",
+    "calendar_date": "15 July",
+    "item_text": "We have a large WordPress website that needs various task list items taken care of. The work would start ASAP through early August. We are only looking for United States based resources... ",
+    "tags": [
+      "Wordpress",
+      "Web development",
+      "Javascript",
+      "HTML/CSS"
+    ],
+    "cost": "750$ - 1000$",
+    "cost_uz": "5,000,000 - 8,000,000 so'm"
+  },
+  {
+    "id": 3,
+    "title": "3333333WordPress – Custom work on existing site ",
+    "part_time": "Project",
+    "company": "Shams Web Studio",
+    "specialty": "Web developer",
+    "heart": false,
+    "city": "N/A",
+    "location": "Gulobod, Tashkent, Uzbekistan",
+    "direction": "Web Development",
+    "calendar_date": "15 July",
+    "item_text": "We have a large WordPress website that needs various task list items taken care of. The work would start ASAP through early August. We are only looking for United States based resources... ",
+    "tags": [
+      "Wordpress",
+      "Web development",
+      "Javascript",
+      "HTML/CSS"
+    ],
+    "cost": "750$ - 1000$",
+    "cost_uz": "5,000,000 - 8,000,000 so'm"
+  }
+]

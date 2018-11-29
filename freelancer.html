@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sudoers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/chosen.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-2">
+					<div class="title">
+						<a href="index.html"><img src="img/title.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-9 col-lg-7">
+					<nav class="navbar navbar-expand-lg navbar-light nav">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+							<i class="fa fa-bars"></i>
+						</button>
+						<div class="collapse navbar-collapse" id="nav">
+							<ul class="navbar-nav menu">
+								<li><a href="index.html">Jobs</a></li>
+								<li><a href="freelancer.html" class="active">Freelancers</a></li>
+								<li><a href="#">Contest</a></li>
+								<li><a href="#">How it works?</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="col-md-3 col-lg-3">
+					<div class="autorisation">
+						<!-- Button trigger modal -->
+						<button type="button" class="btn_login_reg" data-toggle="modal" data-target="#login">
+							Login
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="login" tabindex="-1" role="dialog">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">
+											<img src="img/title_md.png" alt="">
+										</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<i class="fa fa-times"></i>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div class="login_facebook">
+											<i class="fa fa-facebook"></i>
+											<button type="button" class="btn_log_with">Log in with Facebook</button>
+										</div>
+										<div class="login_google">
+											<i class="fa fa-google-plus"></i>
+											<button type="button" class="btn_log_with">Log in with Google Plus</button>
+										</div>
+										<div class="or">or</div>
+										<div class="email_password">
+											<div class="email">
+												<input type="text" class="form-control" placeholder="Email address or Username">
+												<i class="fa fa-user"></i>
+											</div>
+											<div class="password">
+												<input type="password" class="form-control" placeholder="Password">
+												<i class="fa fa-lock"></i>
+											</div>
+										</div>
+										<div class="remember_forgot">
+											<div class="remember_me">
+												<label class="control control-checkbox">
+													Remember Me
+													<input type="checkbox" checked="checked" />
+													<div class="control_indicator"></div>
+												</label>
+											</div>
+											<div class="forgot_password">
+												<a href="#">Forgot password?</a>
+											</div>
+										</div>
+										<div class="login">
+											<button type="button" class="btn_login">Log in</button>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<div class="account">
+											Don’t have an account?
+											<a href="#">Sign up</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn_login_reg" data-toggle="modal" data-target="#register">
+							Register
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="register" tabindex="-1" role="dialog">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">
+											<img src="img/title.png" alt="">
+										</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<i class="fa fa-times"></i>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div class="login_facebook">
+											<i class="fa fa-facebook"></i>
+											<button type="button" class="btn_log_with">Log in with Facebook</button>
+										</div>
+										<div class="login_google">
+											<i class="fa fa-google-plus"></i>
+											<button type="button" class="btn_log_with">Log in with Google Plus</button>
+										</div>
+										<div class="or">or</div>
+										<div class="email_password">
+											<div class="email">
+												<input type="text" class="form-control" placeholder="Email address">
+												<i class="fa fa-user"></i>
+											</div>
+											<div class="password">
+												<input type="password" class="form-control" placeholder="Password">
+												<i class="fa fa-lock"></i>
+											</div>
+										</div>
+										<div class="employer_freelancer">
+											<div class="employer">
+												<label class="control control-radio">
+													I’m a Employer
+													<input name="radio" checked="checked" type="radio">
+													<div class="control_indicator"></div>
+												</label>
+											</div>
+											<div class="employer">
+												<label class="control control-radio">
+													I’m a Freelancer
+													<input name="radio" checked="checked" type="radio">
+													<div class="control_indicator"></div>
+												</label>
+											</div>
+										</div>
+										<div class="login">
+											<button type="button" class="btn_login">Sign up</button>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<div class="account">
+											Don’t have an account?
+											<a href="#">Sign up</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="find_dream_job">
+			<div class="container">
+				<div class="dream_job">
+					<div class="caption">Find your dream job</div>
+					<div class="buttons">
+						<div class="post">
+							<button type="button" class="button">Post Job</button>
+						</div>
+						<div class="find">
+							<button type="button" class="button">Find Job</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="section_location">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="caption">
+						<label for="location" class="label">Location</label>
+					</div>
+					<div class="input">
+						<input type="text" class="form-control" placeholder="Online Job" id="location">
+					</div>
+					<div class="icon">
+						<i class="fa fa-map-marker"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="caption">
+						<label for="keyword" class="label">Keyword</label>
+					</div>
+					<div class="input">
+						<input type="text" class="form-control" placeholder="e.g. Photo editing" id="keyword">
+					</div>
+					<div class="icon">
+						<i class="fa fa-search"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="caption"><label class="label">Industries</label></div>
+					<select data-placeholder="All industries" class="chosen-select" tabindex="7">
+						<option>All industries</option>
+						<option value=""></option>
+						<option></option>
+						<option>Web development</option>
+						<option>IT specialist</option>
+						<option>Graphic design</option>
+						<option>Digital marketing</option>
+						<option>Writing / Translating</option>
+						<option>Accounting</option>
+						<option>General</option>
+						<option>Graphic design</option>
+						<option>Digital marketing</option>
+						<option>Writing / Translating</option>
+						<option>Accounting</option>
+						<option>General</option>
+					</select>
+
+				</div>
+				<div class="col-md-3">
+					<div class="filters">
+						<div class="chevron_up">
+							<a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">filters</a>
+							<!-- <i class="fa fa-chevron-up"></i> -->
+						</div>
+						<div class="applied">Applied</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-4 collapse" id="collapseExample">
+				<div class="col-md-4">
+					<div class="fixed_price">
+						<div class="hourly">
+							Hourly prise
+						</div>
+						<div class="min_max">
+							<div class="box">
+								<input type="text" placeholder="min">
+							</div>
+							<p>to</p>
+							<div class="box">
+								<input type="text" placeholder="max">
+							</div>
+						</div>
+					</div>
+					<div class="caption_sort">Sort by</div>
+					<ul class="sort_by">
+						<li><a href="#">Relavence</a></li>
+						<li><a href="#">Newest</a></li>
+						<li><a href="#">Oldest</a></li>
+						<li><a href="#">Random</a></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<div class="skills">
+						<div class="head">Skills</div>
+						<div class="row">
+							<div class="tag_item">
+								<input type="checkbox" id="tag1">
+								<label for="tag1">Front-end Web</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag2">
+								<label for="tag2">Photoshop</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag3">
+								<label for="tag3">Angular</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag4">
+								<label for="tag4">Web design</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag5">
+								<label for="tag5">Wordpress</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag6">
+								<label for="tag6">Graphic design</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag7">
+								<label for="tag7">Back-end dev</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag8">
+								<label for="tag8">React</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag9">
+								<label for="tag9">App development</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag10">
+								<label for="tag10">Illustration</label>
+							</div>
+							<div class="tag_item">
+								<input type="checkbox" id="tag11">
+								<label for="tag11">App development</label>
+							</div>
+							<div class="new_skill">
+								<div class="add_new_skill">
+									<input type="text" class="form-control" placeholder="Add new skill">
+								</div>
+								<div class="plus"><i class="fa fa-plus"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section_search_featured">
+		<div class="container">
+			<div class="block_search">
+				<div class="between_blocks">
+					<div class="caption">Search Result</div>
+					<div class="nav nav-tabs" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#list" role="tab" aria-controls="nav-home" aria-selected="true">
+							<div class="list"><i class="fa fa-th-list"></i></div>
+						</a>
+						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#grid" role="tab" aria-controls="nav-profile" aria-selected="false">
+							<div class="grid"><i class="fa fa-th-large"></i></div>
+						</a>
+					</div>
+				</div>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="list" role="tabpanel">
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_1.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Christian John</a></div>
+								<div class="skill">UI / Web designer</div>
+								<div class="rating">
+									<span>4.9</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">93%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$50/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Tashkent, Uz</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_2.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Johnatan Doe</a></div>
+								<div class="skill">Wordpress</div>
+								<div class="rating">
+									<span>4.9</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">87%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$80/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Los Angelas, USA</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_3.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Adrian Brett</a></div>
+								<div class="skill">Web Developer</div>
+								<div class="rating">
+									<span>4.3</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">90%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$90/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Paris, France</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_4.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Cameron</a></div>
+								<div class="skill">UI / UX designer</div>
+								<div class="rating">
+									<span>3.7</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">69%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$50/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Tashkent, Uz</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_5.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Clement</a></div>
+								<div class="skill">Writer/Copyrighter</div>
+								<div class="rating">
+									<span>4.9</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">93%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$50/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Tashkent, Uz</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_6.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Dennis Donny</a></div>
+								<div class="skill">Translator</div>
+								<div class="rating">
+									<span>3.2</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">75%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$15/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Abudja, Nigeria</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_7.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Edward Adrian</a></div>
+								<div class="skill">Web Developer</div>
+								<div class="rating">
+									<span>4.3</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">90%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$90/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Tashkent, Uz</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_1.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Christian John</a></div>
+								<div class="skill">UI / Web designer</div>
+								<div class="rating">
+									<span>4.9</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">93%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$50/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Tashkent, Uz</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_2.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Johnatan Doe</a></div>
+								<div class="skill">Wordpress</div>
+								<div class="rating">
+									<span>4.9</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">87%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$80/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Los Angelas</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+						<div class="list_profile">
+							<div class="profile_img">
+								<img src="img/pr_i_5.png" alt="">
+							</div>
+							<div class="box">
+								<div class="name"><a href="">Clement</a></div>
+								<div class="skill">Writer/Copyrighter</div>
+								<div class="rating">
+									<span>4.9</span>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+							</div>
+							<div class="box">
+								<p class="job">Job succes</p>
+								<p class="percent">93%</p>
+							</div>
+							<div class="box">
+								<p class="rate">Rate</p>
+								<p class="hr">$50/hr</p>
+							</div>
+							<div class="box">
+								<div class="location">
+									<p class="loc">Location</p>
+									<p class="city">Tashkent, Uz</p>
+								</div>
+								<div class="button">
+									<button type="button" class="btn_view_profile">View profile</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="grid" role="tabpanel">
+						<div class="items_grid">
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+							<div class="grid_profile">
+								<div class="prof_info">
+									<div class="profile_img">
+										<img src="img/pr_i_1.png" alt="">
+									</div>
+									<div class="info">
+										<div class="name"><a href="">Christian John</a></div>
+										<div class="skill">UI / Web designer</div>
+										<div class="rating">
+											<span>4.9</span>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+								</div>
+								<div class="prof_rate">
+									<div class="boxes">
+										<div class="box">
+											<p class="job">Job succes</p>
+											<p class="percent">93%</p>
+										</div>
+										<div class="box">
+											<p class="rate">Rate</p>
+											<p class="hr">$50/hr</p>
+										</div>
+										<div class="box">
+											<div class="location">
+												<p class="loc">Location</p>
+												<p class="city">Tashkent, Uz</p>
+											</div>
+										</div>
+									</div>
+									<div class="button">
+										<button type="button" class="btn_profile">View profile</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="block_featured">
+				<div class="between_blocks">
+					<div class="caption">Featured Jobs</div>
+				</div>
+				<div class="aside owl-carousel">
+					<div class="sliders">
+						<div class="image" style="background-image: url(img/aside.png);"></div>
+						<div class="favorite_fulltime">
+							<div class="favorite"><i class="fa fa-star"></i></div>
+							<div class="fulltime">Full time</div>
+						</div>
+						<div class="portfolio"><img src="img/portfolio.jpg"></div>
+						<div class="name">PHP Developer</div>
+						<div class="jobs">
+							<div class="job">
+								<i class="fa fa-building"></i>
+								Shams Web Studio
+							</div>
+							<div class="job">
+								<i class="fa fa-map"></i>
+								Chorsu Gulobod, Tashkent, Uzbekistan
+							</div>
+							<div class="job">
+								<i class="fa fa-money"></i>
+								15,000,000 - 17,500,000 so’m
+							</div>
+						</div>
+						<div class="apply_this_job">
+							<button type="button" class="btn_apply">Apply this job</button>
+						</div>
+					</div>
+					<div class="sliders">
+						<div class="image" style="background-image: url(img/aside.png);"></div>
+						<div class="favorite_fulltime">
+							<div class="favorite"><i class="fa fa-star"></i></div>
+							<div class="fulltime">Part time</div>
+						</div>
+						<div class="portfolio"><img src="img/portfolio.jpg"></div>
+						<div class="name">Web Designer</div>
+						<div class="jobs">
+							<div class="job">
+								<i class="fa fa-building"></i>
+								Hexogon studio
+							</div>
+							<div class="job">
+								<i class="fa fa-map"></i>
+								Yunusabad, Tashkent, Uzbekistan
+							</div>
+							<div class="job">
+								<i class="fa fa-money"></i>
+								5,000,000 - 7,500,000 so’m
+							</div>
+						</div>
+						<div class="apply_this_job">
+							<button type="button" class="btn_apply">Apply this job</button>
+						</div>
+					</div>
+				</div>
+				<div class="banner">
+					<div class="text">
+						<p>ASD</p>
+						<span>370 x 556</span>
+					</div>
+				</div>
+				<div class="banner">
+					<div class="text">
+						<p>ASD</p>
+						<span>370 x 556</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section_pagination">
+		<div class="container">
+			<div class="pagination">
+				<nav aria-label="...">
+					<ul class="pagination">
+						<li class="page-item disabled">
+							<a class="page-link" href="#" tabindex="-1">
+								<i class="fa fa-chevron-left"></i>
+							</a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item active">
+							<a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">4</a></li>
+						<li class="page-item"><a class="page-link" href="#">5</a></li>
+						<li class="page-item"><a class="page-link" href="#">6</a></li>
+						<li class="page-item"><a class="page-link" href="#">...</a></li>
+						<li class="page-item"><a class="page-link" href="#">49</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">
+								<i class="fa fa-chevron-right"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div id="topcontrol">
+			<div class="btn btn-special">
+				<span class="fa fa-chevron-up"></span>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="title">
+						<a href="index.html"><img src="img/title.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="icons">
+						<div class="social_icon">
+							<a href="#" class="icon facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+						</div>
+						<div class="social_icon">
+							<a href="#" class="icon twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+						</div>
+						<div class="social_icon">
+							<a href="#" class="icon pinterest" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+						</div>
+						<div class="social_icon">
+							<a href="#" class="icon google" data-toggle="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+						</div>
+						<div class="social_icon">
+							<a href="#" class="icon instagram" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="dropdown">
+						<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+							English
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">English</a>
+							<a class="dropdown-item" href="#">Russian</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="caption">
+						<h5 class="h5">Freelancer</h5>
+					</div>
+					<ul class="list">
+						<li><a href="#">Categories</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Contests</a></li>
+						<li><a href="#">Freelancers</a></li>
+						<li><a href="#">Enterprise</a></li>
+						<li><a href="#">API for Developers</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<div class="caption">
+						<h5 class="h5">About</h5>
+					</div>
+					<ul class="list">
+						<li><a href="#">How it Works</a></li>
+						<li><a href="#">Security</a></li>
+						<li><a href="#">Investor</a></li>
+						<li><a href="#">Sitemap</a></li>
+						<li><a href="#">Quotes</a></li>
+						<li><a href="#">News</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<div class="caption">
+						<h5 class="h5">Terms</h5>
+					</div>
+					<ul class="list">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+						<li><a href="#">Copyright Policy</a></li>
+						<li><a href="#">Code of Conduct</a></li>
+						<li><a href="#">Fees and Charges</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<div class="caption">
+						<h5 class="h5">Freelancer</h5>
+					</div>
+					<ul class="list">
+						<li>Weekly breaking news, analysis and cutting edge advices on job searching.</li>
+						<li class="send">
+							<div class="input">
+								<input type="text" class="form-control" placeholder="Enter your email address">
+							</div>
+							<div class="right">
+								<a href="#"><i class="fa fa-arrow-right"></i></a>
+							</div>
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="copyright">
+			© 2018 Hireo. All Rights Reserved.
+		</div>
+	</footer>
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="libs/jquery/chosen.jquery.min.js" type="text/javascript"></script>
+	<script src="libs/bootstrap4/js/popper.min.js"></script>
+	<script src="libs/bootstrap4/js/bootstrap.min.js"></script>
+	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+	<script src="libs/js/script.js"></script>
+
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
